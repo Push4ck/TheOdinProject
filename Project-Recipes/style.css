@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;600;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Exo 2", sans-serif;
+}
+
+body {
+  background-color: #f7f7f7;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #062d38;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+ol {
+  list-style: none;
+  padding: 20px;
+}
+
+li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #042028;
+  /* background: #96e1dc; */
+  padding: 10px 15px;
+  border-radius: 8px;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+}
+
+li a:hover {
+  /* background: #062d38; */
+  /* color: #f7f7f7; */
+  scale: 1.3;
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 2px solid #042028;
+  border-radius: 12px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px 0;
+}
+
+div {
+  background: white;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+h2 {
+  color: #062d38;
+  margin-bottom: 10px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin: 5px 0;
+}
+
+p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+a {
+  color: #062d38;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
