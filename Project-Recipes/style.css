@@ -36,7 +36,6 @@ li a {
   text-decoration: none;
   font-size: 1.2rem;
   color: #042028;
-  /* background: #96e1dc; */
   padding: 10px 15px;
   border-radius: 8px;
   display: inline-block;
@@ -44,8 +43,6 @@ li a {
 }
 
 li a:hover {
-  /* background: #062d38; */
-  /* color: #f7f7f7; */
   scale: 1.3;
   text-decoration: none;
   padding: 5px 10px;
@@ -57,17 +54,17 @@ img {
   max-width: 100%;
   height: auto;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px #00000033;
   margin: 20px 0;
 }
 
 div {
-  background: white;
+  background: #ffffff;
   padding: 20px;
   margin: 20px auto;
   max-width: 800px;
   border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px #0000001a;
   text-align: left;
 }
 
